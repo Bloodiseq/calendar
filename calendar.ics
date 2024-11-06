@@ -1,20 +1,131 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Your Organization//NONSGML v1.0//EN
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+
 BEGIN:VEVENT
-SUMMARY:Historia i teraźniejszość – Test (Chiny, Stolica Apostolska)
-DESCRIPTION:Test covering Chiny and Stolica Apostolska. Teacher: Trętkiewicz Anna
-LOCATION:Room or location here
-DTSTART:20241118T120000
-DTEND:20241118T124500
-DTSTAMP:20241106T230916
-UID:20241118T120000-test@example.com
-SEQUENCE:0
-STATUS:CONFIRMED
+SUMMARY:Sprawdzian - Język polski
+DESCRIPTION:Przedmiot: Język polski\nNauczyciel: Gajdzińska Iwona\nRodzaj: Sprawdzian\nOpis: Skąpiec Moliera
+DTSTART:20241105T000000Z
+DTEND:20241105T235900Z
+LOCATION:
+STATUS:TENTATIVE
 BEGIN:VALARM
-TRIGGER:-PT10M
-DESCRIPTION:Reminder for Test
+TRIGGER:-PT15M
+DESCRIPTION:Reminder for Sprawdzian - Język polski
 ACTION:DISPLAY
 END:VALARM
 END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Sprawdzian - Biznes i zarządzanie
+DESCRIPTION:Przedmiot: Biznes i zarządzanie\nNauczyciel: Świszcz Ewa\nRodzaj: Sprawdzian\nOpis: Rozdz. 1 Usługi finansowe i ubezpieczenia społeczne\n1) Instytucje rynku finansowego;\n2) Usługi finansowe - konta, karty i lokaty;\n3) Usługi finansowe - kredyty i pożyczki;\n4) Ubezpieczenia majątkowe;\n5) Ubezpieczenia osobowe, społeczne i zdrowotne.
+DTSTART:20241106T000000Z
+DTEND:20241106T235900Z
+LOCATION:
+STATUS:TENTATIVE
+BEGIN:VALARM
+TRIGGER:-PT15M
+DESCRIPTION:Reminder for Sprawdzian - Biznes i zarządzanie
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Kartkówka - Chemia
+DESCRIPTION:Przedmiot: Chemia\nNauczyciel: Chajda Beata\nRodzaj: Kartkówka\nOpis: Obliczanie rozpuszczalności i stężenia procentowego
+DTSTART:20241106T000000Z
+DTEND:20241106T235900Z
+LOCATION:
+STATUS:TENTATIVE
+BEGIN:VALARM
+TRIGGER:-PT15M
+DESCRIPTION:Reminder for Kartkówka - Chemia
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Kartkówka - Język niemiecki
+DESCRIPTION:Przedmiot: Język niemiecki\nNauczyciel: Kulczewska Małgorzata\nRodzaj: Kartkówka\nOpis: Stopniowanie przymiotnika.
+DTSTART:20241107T000000Z
+DTEND:20241107T235900Z
+LOCATION:
+STATUS:TENTATIVE
+BEGIN:VALARM
+TRIGGER:-PT15M
+DESCRIPTION:Reminder for Kartkówka - Język niemiecki
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Kartkówka - Matematyka
+DESCRIPTION:Przedmiot: Matematyka\nNauczyciel: Adamska Małgorzata\nRodzaj: Kartkówka\nOpis: Rozwiązywanie równań i nierówności kwadratowych, wartość największa i najmniejsza w przedziale domkniętym.
+DTSTART:20241107T000000Z
+DTEND:20241107T235900Z
+LOCATION:
+STATUS:TENTATIVE
+BEGIN:VALARM
+TRIGGER:-PT15M
+DESCRIPTION:Reminder for Kartkówka - Matematyka
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Sprawdzian - Geografia
+DESCRIPTION:Przedmiot: Geografia\nNauczyciel: Stelmach-Tyszko Krystyna\nRodzaj: Sprawdzian\nOpis: Mapa fizyczna świata
+DTSTART:20241108T000000Z
+DTEND:20241108T235900Z
+LOCATION:
+STATUS:TENTATIVE
+BEGIN:VALARM
+TRIGGER:-PT15M
+DESCRIPTION:Reminder for Sprawdzian - Geografia
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Święto Niepodległości
+DESCRIPTION:Zakres: 2024-11-11 - 2024-11-11
+DTSTART:20241111T000000Z
+DTEND:20241111T235900Z
+LOCATION:
+STATUS:TENTATIVE
+BEGIN:VALARM
+TRIGGER:-PT15M
+DESCRIPTION:Reminder for Święto Niepodległości
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Kartkówka - Wykonanie lokalnej sieci komputerowej
+DESCRIPTION:Przedmiot: Wykonanie lokalnej sieci komputerowej\nNauczyciel: Gozdek Maciej\nRodzaj: Kartkówka\nOpis: Normy, przesłuchy
+DTSTART:20241112T000000Z
+DTEND:20241112T235900Z
+LOCATION:
+STATUS:TENTATIVE
+BEGIN:VALARM
+TRIGGER:-PT15M
+DESCRIPTION:Reminder for Kartkówka - Wykonanie lokalnej sieci komputerowej
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Sprawdzian - Historia i teraźniejszość
+DESCRIPTION:Przedmiot: Historia i teraźniejszość\nNauczyciel: Trętkiewicz Anna\nRodzaj: Sprawdzian\nOpis: Chiny, Stolica Apostolska
+DTSTART:20241118T000000Z
+DTEND:20241118T235900Z
+LOCATION:
+STATUS:TENTATIVE
+BEGIN:VALARM
+TRIGGER:-PT15M
+DESCRIPTION:Reminder for Sprawdzian - Historia i teraźniejszość
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+
 END:VCALENDAR
