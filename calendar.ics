@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+BEGIN:VEVENT
+SUMMARY:Sprawdzian - Historia i teraźniejszość
+DESCRIPTION:Przedmiot: Historia i teraźniejszość\nNauczyciel: Trętkiewicz Anna\nRodzaj: Sprawdzian\nTematy: Chiny, Stolica Apostolska
+DTSTART:20241118T000000Z
+DTEND:20241118T235900Z
+LOCATION:
+STATUS:TENTATIVE
+BEGIN:VALARM
+TRIGGER:-PT15M
+DESCRIPTION:Reminder for Sprawdzian - Historia i teraźniejszość
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR
